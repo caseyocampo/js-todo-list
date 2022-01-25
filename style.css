@@ -42,31 +42,35 @@ button {
     background: white;
     border: 1px solid #333;
     border-radius: 4px;
+    color: #333;
 }
 
 button {
     border: 1px solid grey;
-    padding: 0.2em 0.5em;
+    font-size: 1em;
+    padding: 0.3em 0.5em 0.2em 0.5em;
     -webkit-appearance: none;
 }
 
 .removeBtn {
     cursor: pointer;
     float: right;
-    margin-top: -2.6em;
+    margin-top: -2.4em;
     margin-bottom: 1em;
 }
 
 #addBtn {
     cursor: pointer;
-    padding: 0.425em 0.5em 0.3em 0.5em;
+    /* padding: 0.425em 0.5em 0.3em 0.5em; */
 }
 
 #listInput {
     background: #fffef6;
     border-radius: 4px;
     border: 1px solid grey;
-    padding: 0.25em 0.5em 0.2em 0.5em;
+    /* padding: 0.25em 0.5em 0.2em 0.5em; */
+    /* padding: 0.4em 0.5em 0.2em 0.5em; */
+    padding: 0.3em 0.5em 0.2em 0.5em;
     -webkit-appearance: none;
 }
 

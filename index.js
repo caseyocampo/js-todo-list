@@ -35,6 +35,8 @@ function addItem() {
     for (let btn of removeBtn) {
         btn.addEventListener('click', removeItem)
     }
+
+    listInput.value = ''
 }
 
 function removeItem() {
