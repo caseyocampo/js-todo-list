@@ -95,6 +95,15 @@ button {
     width: calc(80% - 30px);
 }
 
+footer {
+    margin: 5em 0 2em 0;
+    text-align: center;
+}
+
+footer p a {
+    color: #333;
+}
+
 @media (max-width: 500px) {
     #listInput {
         width: 100%;
