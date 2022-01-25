@@ -19,3 +19,20 @@ Here's how I use `clamp` for my `h1` tag:
 `h1 { font-size: clamp(1rem, 7vw, 2rem); }`
 
 ## JavaScript
+
+**Methods**
+
+-   .Array.from()
+-   .previousElementSibling
+-   .appendChild()
+-   .classList.add()
+-   .push()
+-   .addEventListener()
+-   .getElementById()
+-   .getElementsByClassName()
+-   .textContent
+
+**Features**
+
+-   The for ... of statement
+-   The `this` keyword
