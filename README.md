@@ -18,6 +18,8 @@ Here's how I use `clamp` for my `h1` tag:
 
 `h1 { font-size: clamp(1rem, 7vw, 2rem); }`
 
+Read more about it on [MDN Web Docs](<https://developer.mozilla.org/en-US/docs/Web/CSS/clamp()>).
+
 ## JavaScript
 
 **Methods**
