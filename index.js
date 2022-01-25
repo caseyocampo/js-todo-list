@@ -5,8 +5,6 @@ let listItems = document.getElementsByClassName('list--item')
 let listItemsArray = Array.from(listItems)
 let newArray = [...listItemsArray]
 
-addBtn.addEventListener('click', addItem)
-
 let removeBtn = document.getElementsByClassName('removeBtn')
 
 for (let btn of removeBtn) {
@@ -15,6 +13,8 @@ for (let btn of removeBtn) {
         btn.style.display = 'none'
     })
 }
+
+addBtn.addEventListener('click', addItem)
 
 function addItem() {
     let newItem = document.createElement('li')
