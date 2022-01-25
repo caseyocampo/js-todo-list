@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 1em;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+ul {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+button {
+    cursor: pointer;
+}
