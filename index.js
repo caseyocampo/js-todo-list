@@ -3,7 +3,6 @@ let list = document.getElementById('list')
 let listInput = document.getElementById('listInput')
 let listItems = document.getElementsByClassName('list--item')
 let listItemsArray = Array.from(listItems)
-let newArray = [...listItemsArray]
 
 let removeBtn = document.getElementsByClassName('removeBtn')
 
@@ -30,7 +29,6 @@ function addItem() {
     list.appendChild(newItem)
     list.appendChild(newRemoveBtn)
     listItemsArray.push(newItem)
-    newArray = listItemsArray
 
     for (let btn of removeBtn) {
         btn.addEventListener('click', removeItem)
