@@ -1,4 +1,5 @@
 * {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -16,8 +17,16 @@ h1 {
 ul {
     margin-top: 1em;
     margin-left: 1em;
+    display: relative;
 }
 
-button {
+li {
+    margin-bottom: 1em;
+}
+
+.removeBtn {
     cursor: pointer;
+    float: right;
+    margin-top: -2.6em;
+    margin-bottom: 1em;
 }
